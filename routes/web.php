@@ -20,3 +20,4 @@ Route::get('/', function () {
 Route::get('/table', function() {
     return view('table');
 });
+Route::resource('products', App\Http\Controllers\ProductController::class);
